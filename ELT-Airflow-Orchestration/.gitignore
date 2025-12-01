@@ -1,0 +1,32 @@
+# Airflow
+logs/
+*.log
+*.pid
+airflow.cfg
+airflow.db
+airflow_login.py
+unittests.cfg
+webserver_config.py
+
+# Data files
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Docker
+.env.local
+
